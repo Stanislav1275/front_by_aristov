@@ -1,0 +1,18 @@
+.p-dialog-content {
+  min-height: 400px;
+}
+
+.lk {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.lk h2, .lk button {
+  margin-top: 60px;
+}
+
+.loginPopupBtn {
+  border: 0 !important;
+}
+
+/*# sourceMappingURL=Dialog.css.map */

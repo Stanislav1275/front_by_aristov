@@ -1,0 +1,21 @@
+.productSolo {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black !important;
+}
+.productSolo__priceDes {
+  display: flex;
+}
+.productSolo .p-card {
+  width: 100%;
+  color: black;
+  background-color: transparent !important;
+}
+.productSolo .p-card .p-card-body {
+  width: calc(100vw - 300px);
+}
+
+/*# sourceMappingURL=productSolo.css.map */

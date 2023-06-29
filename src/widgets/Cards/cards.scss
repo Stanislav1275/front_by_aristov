@@ -1,0 +1,16 @@
+.productsPage{
+  width: 100%;
+}
+.cards{
+  margin: 0 auto !important;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .card{
+
+    max-height: 350px;
+    width: 100%;
+  }
+}

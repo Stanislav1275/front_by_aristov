@@ -1,0 +1,39 @@
+main {
+  flex: 1 0 auto;
+  flex-direction: row;
+  min-height: 90vh;
+  display: flex;
+}
+main .main_content {
+  flex-grow: 1;
+}
+main ul {
+  padding: 0 !important;
+  border: 0 !important;
+}
+main ul li {
+  padding: 0 !important;
+  border: 0 !important;
+}
+main ul li a {
+  color: black !important;
+  margin: 0;
+  background-color: rgba(238, 238, 238, 0.9333333333) !important;
+}
+main ul li[aria-selected=true] a {
+  color: #e8902c !important;
+}
+main .sidebar {
+  height: 100% !important;
+  width: 200px;
+}
+main .tabmenu {
+  background-color: rgba(238, 238, 238, 0.9333333333) !important;
+  height: 100% !important;
+}
+
+.p-tabmenu.p-tabmenu-nav.p-tabmenuitem.p-menuitem-link {
+  border: 0 !important;
+}
+
+/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,37 @@
+.main_page, .productsPage {
+  min-height: 90vh;
+  display: flex;
+}
+.main_page .main_content, .productsPage .main_content {
+  flex-grow: 1;
+}
+.main_page ul, .productsPage ul {
+  padding: 0 !important;
+  border: 0 !important;
+}
+.main_page ul li, .productsPage ul li {
+  padding: 0 !important;
+  border: 0 !important;
+}
+.main_page ul li a, .productsPage ul li a {
+  color: black !important;
+  margin: 0;
+  background-color: rgba(238, 238, 238, 0.9333333333) !important;
+}
+.main_page ul li[aria-selected=true] a, .productsPage ul li[aria-selected=true] a {
+  color: #e8902c !important;
+}
+.main_page .sidebar, .productsPage .sidebar {
+  height: 100% !important;
+  width: 200px;
+}
+.main_page .tabmenu, .productsPage .tabmenu {
+  background-color: rgba(238, 238, 238, 0.9333333333) !important;
+  height: 100% !important;
+}
+
+.p-tabmenu.p-tabmenu-nav.p-tabmenuitem.p-menuitem-link {
+  border: 0 !important;
+}
+
+/*# sourceMappingURL=mainPage.css.map */

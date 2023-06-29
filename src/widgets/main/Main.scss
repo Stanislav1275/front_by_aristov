@@ -1,0 +1,49 @@
+
+main{
+
+  flex: 1 0 auto;
+  flex-direction: row;
+
+  min-height: 90vh;
+  display: flex;
+  .main_content{
+    flex-grow:1;
+  }
+  ul{
+    padding: 0 !important;
+
+    border: 0 !important;
+    li{
+      padding: 0 !important;
+
+      border: 0 !important;
+
+      a{
+        color: black !important;
+        margin: 0;
+        background-color: #eeee !important;
+      }
+      &[aria-selected="true"]{
+        a{
+          color: #e8902c !important;
+
+        }
+      }
+    }
+  }
+
+  .sidebar{
+    height: 100% !important;
+    width:200px;
+  }
+  .tabmenu{
+    background-color: #eeee !important;
+    height: 100% !important;
+  }
+}
+.p-tabmenu.p-tabmenu-nav.p-tabmenuitem.p-menuitem-link{
+  border: 0 !important;
+  span{
+
+  }
+}

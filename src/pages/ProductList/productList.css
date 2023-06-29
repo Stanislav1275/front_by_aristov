@@ -1,0 +1,9 @@
+.productsPage {
+  color: black !important;
+  display: flex;
+}
+.productsPage .productSolo {
+  color: black !important;
+}
+
+/*# sourceMappingURL=productList.css.map */
